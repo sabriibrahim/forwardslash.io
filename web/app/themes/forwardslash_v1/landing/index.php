@@ -7,8 +7,8 @@
     <title>ForwardSlash.io : Web/Mobile App Designers &amp; Front-end Developers</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="<?= get_template_directory_uri() ?>/landing/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= get_template_directory_uri() ?>/landing/css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,12 +19,12 @@
   </head>
   <body>
     <div class="wrap">
-      <img src="img/splash-img@2x.png">
+      <img src="<?= get_template_directory_uri() ?>/landing/img/splash-img@2x.png">
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="<?= get_template_directory_uri() ?>/landing/js/bootstrap.min.js"></script>
   </body>
 </html>
